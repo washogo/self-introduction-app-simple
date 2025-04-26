@@ -3,7 +3,7 @@ export default function Home() {
     <>
       <header className="header">
         <nav className="nav">
-          <h1 className="text-xl font-bold text-primary">自己紹介</h1>
+          <h1 className="header-title">自己紹介</h1>
           <div className="nav-links">
             <a href="#profile">プロフィール</a>
             <a href="#appeal">アピールポイント</a>
@@ -28,16 +28,16 @@ export default function Home() {
             <img src="https://images.pexels.com/photos/3760778/pexels-photo-3760778.jpeg?auto=compress&cs=tinysrgb&w=800" alt="プロフィール画像" />
           </div>
           <div>
-            <h3 className="text-2xl font-bold mb-2">山田 太郎</h3>
-            <p className="text-primary mb-4">ウェブデベロッパー / デザイナー</p>
-            <div className="space-y-2">
+            <h3 className="profile-name">山田 太郎</h3>
+            <p className="profile-title">ウェブデベロッパー / デザイナー</p>
+            <div className="profile-content">
               <p>年齢: 28歳</p>
               <p>居住地: 東京都</p>
               <p>Email: example@email.com</p>
             </div>
           </div>
         </div>
-        <div className="mt-8 space-y-4">
+        <div className="profile-text">
           <p>
             はじめまして、山田太郎と申します。私はフロントエンド開発を専門とするウェブデベロッパーで、
             ユーザー体験を向上させる美しいインターフェースの構築に情熱を持っています。
@@ -85,7 +85,7 @@ export default function Home() {
 
       <section id="interests" className="section">
         <h2>好きなもの・嫌いなもの</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="card-wrapper">
           <div className="card">
             <h3>好きなもの</h3>
             <ul className="list">
@@ -146,7 +146,7 @@ export default function Home() {
 
       <section id="goals" className="section">
         <h2>目標</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="card-wrapper">
           <div className="card">
             <h3>短期目標</h3>
             <ul className="list">
