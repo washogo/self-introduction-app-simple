@@ -56,7 +56,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(135deg, rgba(107, 127, 215, 0.1), rgba(255, 107, 107, 0.1));
   padding: 2rem;
 }
 
@@ -64,14 +63,10 @@ body {
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  background: linear-gradient(to right, var(--primary), var(--accent));
-  -webkit-background-clip: text;
-  color: transparent;
 }
 
 .hero-content p {
   font-size: 1.25rem;
-  color: var(--text);
   opacity: 0.9;
 }
 
@@ -183,7 +178,7 @@ body {
 }
 
 .list li::before {
-  content: "•";
+  content: '•';
   position: absolute;
   left: 0.5rem;
   color: var(--accent);
@@ -229,32 +224,32 @@ body {
     display: flex;
     gap: 2rem;
   }
-  
+
   .nav-links a {
     color: var(--text);
     text-decoration: none;
     font-weight: 500;
   }
-  
+
   .nav-links a:hover {
     color: var(--primary);
   }
-  
+
   .hero-content h1 {
     font-size: 4rem;
   }
-  
+
   .profile-card {
     flex-direction: row;
     text-align: left;
     align-items: flex-start;
   }
-  
+
   .profile-image {
     margin-right: 2rem;
     margin-bottom: 0;
   }
-  
+
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
